@@ -1,4 +1,6 @@
-# 🏏 IPL Score Prediction
+# 🏏 IPL Score Prediction                                        
+## 🌐 Live Demo
+👉 https://YOUR-STREAMLIT-APP.streamlit.app
 
 ## 📌 Project Overview
 This project predicts the final first innings score of an IPL match using a Deep Learning model. The application is built with TensorFlow, Scikit-Learn, and Streamlit.

@@ -3,11 +3,18 @@ import pickle
 import pandas as pd
 from tensorflow.keras.models import load_model
 
-# Load Model
-model = load_model("../Model/ipl_score_prediction_model.keras")
+from pathlib import Path
+import pickle
+from tensorflow.keras.models import load_model
 
-# Load Transformer
-with open("../Model/transformer.pkl", "rb") as f:
+# Base directory of the project
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Load model
+model = load_model(BASE_DIR / "Model" / "ipl_score_prediction_model.keras")
+
+# Load transformer
+with open(BASE_DIR / "Model" / "transformer.pkl", "rb") as f:
     transformer = pickle.load(f)
 
 st.set_page_config(page_title="IPL Score Prediction", page_icon="🏏")

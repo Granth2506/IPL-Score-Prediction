@@ -61,8 +61,8 @@ streamlit run app.py
 ## 👥 Team Members
 
 - Granth Singhal
-- Utkarsh Srivastava
 - Bhumika Goel
+- Utkarsh Srivastava
 - Preksha Jain
 
 ## 📸 Screenshots

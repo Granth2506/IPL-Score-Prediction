@@ -63,7 +63,7 @@ streamlit run app.py
 - Granth Singhal
 - Bhumika Goel
 - Utkarsh Srivastava
-- Preksha Jain
+- Preaksha Jain
 
 ## 📸 Screenshots
 ### Home Page 
